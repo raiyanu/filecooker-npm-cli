@@ -33,7 +33,6 @@ https.get(url, (res) => {
 
   file.on("finish", () => {
     file.close(() => {
-      console.log("✅ Download complete");
       runBinary(process.argv.slice(2));
     });
   });
