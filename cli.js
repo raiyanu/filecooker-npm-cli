@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from "fs";
 import followRedirects from "follow-redirects";
 import { fileURLToPath } from "url";
